@@ -6,7 +6,7 @@
 body {
 	
 	--color-primario:#fff;
-	--fondo-imagen:url("images/fondojjo3.jpg");
+	--fondo-imagen:url(images/fondojjo3.jpg);
 	--color-wrapped:#fff;
 	--color-bg-ctextoazul:#c23433;
 	--color-lred:#cd2e2e;
@@ -27,7 +27,7 @@ body {
 
 body.dark-theme {
 	--color-primario:rgb(60, 59, 59);
-	--fondo-imagen:url("images/fondojjo4.jpg");
+	--fondo-imagen:url(images/fondojjo4.jpg);
 	--color-wrapped:rgb(41, 41, 41);
 	--color-bg-ctextoazul:#343434;
 	--color-lred:#848383;
@@ -194,7 +194,7 @@ body.dark-theme img {
     width: 63px;
     height: 50px;
     float: left;
-    background-image: url(images/simbolo.png);
+    background-image: url(../images/simbolo.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 2px;
