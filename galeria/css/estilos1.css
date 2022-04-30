@@ -1,0 +1,689 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 20px;
+    background: #cd2e2e;
+     font-family: 'Arial',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+    -webkit-box-shadow: 2px 1px 8px 0px rgba(45, 50, 50, 0.49);
+    -moz-box-shadow: 2px 1px 8px 0px rgba(45, 50, 50, 0.49);
+    -o-box-shadow: 2px 1px 8px 0px rgba(45, 50, 50, 0.49);
+    -ms-box-shadow: 2px 1px 8px 0px rgba(45, 50, 50, 0.49);
+    box-shadow: 2px 1px 8px 0px rgba(45, 50, 50, 0.49);
+    opacity: 0.8;
+}
+
+.texto  {
+    width: 100%;
+    height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    background: yellow;
+    position: absolute;
+    
+}
+
+#desc {
+    width: 300px;
+    height: 150px;
+    background: transparent;
+}
+
+.textdown{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: rgb(0,0,0,0.3);
+    -webkit-background: rgba(0,0,0,0.3);
+     -moz-background: rgba(0,0,0,0.3);
+     -ms-background: rgba(0,0,0,0.3);
+     -o-background: rgba(0,0,0,0.3);
+    opacity: 1;
+    bottom: 10%;
+    right: 100px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 4px;
+}
+
+
+
+/* animaciones
+.textdown, .textdownu, .textdownd, .textdownt{
+    position: absolute;
+    width: auto;
+    height: 20px;
+    background: transparent;
+    bottom: 10%;
+    right: 100px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
+    color: white;
+    opacity: 1;
+    animation: logo;
+    animation-duration: 28s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+.textdownu {
+    opacity: 0;
+    animation-name: logo;
+    animation-duration: 28s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+}
+
+.textdownd {
+    opacity: 0;
+    animation-name: logo;
+    animation-duration: 28s;
+    animation-delay: 14s;
+    animation-iteration-count: infinite;
+}
+
+.textdownt {
+    opacity: 0;
+    animation-name: logo;
+    animation-duration: 28s;
+    animation-delay: 21s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@-webkit-keyframes logo{ 
+0% {opacity:0;}
+15% {opacity: 1;}    
+28% {opacity: 1;}
+35% {opacity:0}
+100%{opacity: 0;}
+}
+
+@-moz-keyframes logo{ 
+0% {opacity:0;}
+15% {opacity: 1;}    
+25% {opacity: 1;}
+30% {opacity:0}
+100%{opacity: 0;}
+}
+@-o-keyframes logo{ 
+0% {opacity:0;}
+15% {opacity: 1;}    
+25% {opacity: 1;}
+30% {opacity:0}
+100%{opacity: 0;}
+}
+
+@-ms-keyframes logo{ 
+0% {opacity:0;}
+15% {opacity: 1;}    
+25% {opacity: 1;}
+30% {opacity:0}
+100%{opacity: 0;}
+}
+
+@keyframes logo { 
+0% {opacity:0;}
+15% {opacity: 1;}    
+25% {opacity: 1;}
+30% {opacity:0}
+100%{opacity: 0;}
+}
+
+*/
+
+
+.dis{
+    color:red;
+}
+
+.redtext{
+    width:290px;
+    height: -webkit-calc(100vh - 20px);
+    height: -moz-calc(100vh - 20px);
+    height: -ms-calc(100vh - 20px);
+    height: -o-calc(100vh - 20px);
+    height: calc(100vh - 20px);
+    background: rgba(205,46,46,.9);
+    -webki-background: rgba(205,46,46,.9);
+    -moz-background: rgba(205,46,46,.9);
+    -o-background: rgba(205,46,46,.9);
+    -ms-background: rgba(205,46,46,.9);
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    z-index: 5;
+    padding-top: 0;
+    overflow:auto;
+   
+
+}
+
+
+.redtextd > .descripcion {
+    opacity: 0;
+}
+
+.redtextd{
+    width:290px;
+    /*height: -webkit-calc(100vh - 20px);
+    height: -moz-calc(100vh - 20px);
+    height: -ms-calc(100vh - 20px);
+    height: -o-calc(100vh - 20px);*/
+    /*height: calc(30px);*/
+    background: rgba(205,46,46,0);
+    -webkit-background: rgba(205,46,46,0);
+    
+    position: absolute;
+    left: -262px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding-top: 0;
+    overflow: hidden;
+        
+}
+
+.rojotitu {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    margin-left: 10%;
+    top: 20%;
+   
+}
+
+.titulon {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 0.2px;
+    margin-top: 5px;
+    padding: 0px 0px;
+}
+
+.parrafo {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    width: auto;
+    letter-spacing: 0.1px;
+    height: auto;
+    margin-top: 25px;
+    padding:0px 0px;
+   
+    
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+
+
+.texto {
+    width: 20%;
+    height: 75px;
+    top: 50%;
+    margin-top: -35px;
+    position: absolute;
+    opacity: .8;
+    background-image: url(../images/rojo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+    display: none;
+    
+}
+
+.rojo {
+    color: white;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    margin-top: -5px;
+    padding: 0px 0px;
+    
+ 
+}
+
+.logoni {
+    width: 65px;
+    height: 73px;
+
+}
+
+
+
+.izquierda p {
+    width: 85px;
+    height: auto;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    margin-top: 3px;
+     text-align: right;
+     
+        
+}    
+
+.derecha p {
+     width: 115px;
+    height: auto;
+    color: white;
+    float: left;
+    margin-top: 3px;
+    margin-left: 40px;
+   
+}
+
+
+/*.texto li {
+   list-style: none;   
+    margin-left:105px;
+    margin-top: 26px;
+}
+
+.texto li {
+    opacity: 1;
+    position: absolute;
+     -webkit-animation: titleAnimation 49s linear infinite 0s;
+     -moz-animation: titleAnimation 49s linear infinite 0s;
+     -o-animation: titleAnimation 49s linear infinite 0s; 
+     -ms-animation: titleAnimation 49s linear infinite 0s; 
+     animation: titleAnimation 49s linear infinite 0s; 
+   
+}
+
+
+.texto li span {
+    font-weight: 200;
+    
+}*/
+
+
+/*boton menú*/
+
+.botonh {
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 0;
+    background-color: rgba(205,46,46,0.9);
+    -webkit-background-color: rgba(205,46,46,0.5);
+    position: absolute;
+    border: 0px solid #fff;
+    display: flex;
+    -webkit-display:flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+
+#fullscreen {
+    width: 16px;
+    height: 16px;
+    -webkit-background-color: rgba(205,46,46,0.5);
+    -moz-background-color: rgba(205,46,46,0.5);
+    -ms-background-color: rgba(205,46,46,0.5);
+    -o-background-color: rgba(205,46,46,0.5);
+    background-color: rgba(205,46,46,0.5);
+    position: absolute;
+    /*background: url(../images/fulld.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;*/
+    right: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+
+
+.descripcion {
+    width: 78%;
+    height: auto;
+    margin: 30% auto 50% auto;
+    border: 0px solid #fff;
+    overflow: hidden;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    transition: all 0.6s;
+   
+   
+}
+
+
+
+
+
+/*.hambur:after,
+.hambur:before,
+.hambur{
+    transition: all 0.5s;
+    -webkit-transition: 0.5s;
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    content: '';
+    background: white;
+    opacity: 1;
+    
+}
+
+.hambur:after {
+    top:8px;
+    
+   
+}
+
+.hambur:before {
+     top:-8px;
+     
+}
+
+
+.cruz{
+    transition: 0.5s;
+    transform: rotateZ(45deg);
+}
+
+.cruz:before{
+    transition: 0.5s;
+    top: 0px;
+    transform: rotateZ(90deg);
+}
+
+.cruz:after{
+    transition: 0.5s;
+    top: 0px;
+    transform: rotateZ(0deg);
+    opacity: 0;
+}*/
+
+.hambur::after,
+.hambur::before,
+.hambur{
+    transition: all 0.5s;
+    -webkit-transition: 0.5s;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    content: '';
+    background: white;
+    opacity: 1;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+     -moz-transform: rotateZ(45deg);
+     -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+}
+
+.hambur::after {
+    top:0px;
+    transform: rotateZ(90deg);
+    -webkit-transform: rotateZ(90deg);
+     -moz-transform: rotateZ(90deg);
+     -ms-transform: rotateZ(90deg);
+     -o-transform: rotateZ(90deg);
+    opacity: 0;
+}
+
+.hambur::before {
+    top:0px;
+    transform: rotateZ(90deg);
+    -webkit-transform: rotateZ(90deg);
+    -moz-transform: rotateZ(90deg);
+     -ms-transform: rotateZ(90deg);
+     -o-transform: rotateZ(90deg);
+}
+
+
+.cruz{
+    transition: 0.5s;
+    -webkit-  transition: 0.5s;
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+     -ms-transform: rotateZ(0deg);
+     -o-transform: rotateZ(0deg);
+
+}
+
+.cruz::before{
+    transition: 0.5s;
+    -webkit-  transition: 0.5s;
+    top: 5px;
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+     -ms-transform: rotateZ(0deg);
+     -o-transform: rotateZ(0deg);
+}
+
+.cruz::after{
+    transition: 0.5s;
+    -webkit-  transition: 0.5s;
+    top: -5px;
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+     -ms-transform: rotateZ(0deg);
+     -o-transform: rotateZ(0deg);
+    opacity: 1;
+}
+
+
+
+/* animacion texto 
+
+.texto li:nth-child(2) { 
+    animation-delay: 7s; 
+}
+.texto li:nth-child(3)  { 
+    animation-delay: 14s; 
+}
+.texto li:nth-child(4)  { 
+    animation-delay: 21s; 
+}
+.texto li:nth-child(5)  { 
+    animation-delay: 28s; 
+}
+.texto li:nth-child(6)  { 
+    animation-delay: 35s; 
+}
+
+.texto li:nth-child(7)  { 
+    animation-delay: 42s; 
+}
+
+
+
+@-webkit-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+     19% { opacity: 0 }    
+    100% { opacity: 0 }
+}
+
+@-moz-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-o-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+     19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+
+   <li>PROPS · <span>PARIS</span></li>
+ 
+ <li>IRONMAN · <span>DISNEY</span></li>
+ 
+ <li>LOLLAPALOOZA · <span>ADIDAS</span></li>
+ <li>VITRINA · <span>REEBOK</span></li>
+ <li>NOVIOS ·<span>PARIS</span></li>
+ 
+  <li>PREDATOR · <span>ADIDAS</li>
+   <li>VITRINA · <span>ADIDAS ORIGINALS</span></li>
+     <div class="rojo">ROJO DISEÑO IMAGEN</div>
+   
+*/
+@media screen and (max-width: 768px) {
+    .textdown {
+        right : 25px;
+    }
+    
+    
+    
+    
+    .derecha p {
+        margin-left: 20px;
+    }
+    .izquierda p {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .descripcion {
+        margin: 50px auto;
+      
+    }
+    
+    .logoni {
+        width: 40px;
+        height: 45px;
+    }
+    
+   
+    
+   /* 
+    
+    .titulon {
+    text-align: left;
+    width: 100%;    
+    font-size: 19px;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 5px;
+        
+}
+    
+.rojo {
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    margin-top: -2px;
+    
+
+    }
+    
+    .parrafo {
+    width: 199px;    
+    font-size: 14px;
+    margin-top: 20px;
+       
+        
+    
+ }
+    
+    .logoni {
+        width: 55px;
+        height: 62px;
+    }
+    
+    .redtext, .redtextd {
+        width: 250px;
+    }
+    
+    .redtextd {
+        left: -222px;
+    }
+    
+    .textdown {
+        right: 20px;
+    }
+    
+}*/
+
+@media screen and (max-width: 260px) {
+   
+  
+}
+
+
+
+
+
+
+
+
+
