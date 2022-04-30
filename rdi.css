@@ -27,7 +27,7 @@ body {
 
 body.dark-theme {
 	--color-primario:rgb(60, 59, 59);
-	--fondo-imagen:url(images/fondojjo4.jpg);
+	--fondo-imagen:url(../images/fondojjo4.jpg);
 	--color-wrapped:rgb(41, 41, 41);
 	--color-bg-ctextoazul:#343434;
 	--color-lred:#848383;
