@@ -5,6 +5,7 @@
 
 body {
     background-color: white;
+    transition: all 0.4s;
 }
 
 body.darkmode{
@@ -33,22 +34,25 @@ body.darkmode{
 ul {
     width: 60%;
     height: auto;
-    margin: 15px auto 5px auto;
+    margin: 12.5px auto 5px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
+    
     
 }   
 
 li {
 
     width: 70px;
-    height: auto;
+    height: 20px;
     background-color: #fff;
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    vertical-align: middle;
+    padding-top: 2px;
 
 }
 
@@ -166,7 +170,7 @@ li:hover {
     height: 175px;
     background-color: green;
     margin: 20px auto;
-    background-image: url(../images/volcan.jpg);
+    background-image: url(/images/volcan.jpg);
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
@@ -175,10 +179,10 @@ li:hover {
 }
 
 .t2 {
-    background-image: url(../images/cielorojo.jpg);
+    background-image: url(/images/cielorojo.jpg);
 }
 .t3 {
-    background-image: url(../images/montana.jpg);
+    background-image: url(/images/montana.jpg);
 }
 
 #btndark {
@@ -189,9 +193,32 @@ li:hover {
     border-radius: 5px;
     position: absolute;
     margin: 35px 15px 15px 45px;
-    font-size: 30px;
     cursor: pointer;
+    display: flex;
  
 } 
 
+#luna {
+    font-size: 30px;
+    margin: auto;
+    color: white;
+   
+}
+
+#sol {
+    display: none;
+   
+}
+
+.darkmode #luna {
+    display: none;
+}
+.darkmode #sol {
+    display: block;
+    font-size:30px;
+    color: #ebc127;
+    margin: auto;
+  
+    
+}
 

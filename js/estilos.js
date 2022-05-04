@@ -3,11 +3,12 @@ const body = document.querySelector('body');
 
 load();
 
-boton.addEventListener('click', e=>{
+boton.addEventListener('click', () => {
      body.classList.toggle('darkmode');
      store(body.classList.contains('darkmode'));
 
 });
+//leer local storage para ver si existe darkmode, store guardar el valor
 function load() {
      const darkmode = localStorage.getItem('darkmode');
 
@@ -18,8 +19,6 @@ function load() {
      } 
          
      }
-
-
 
 function store(value) {
      localStorage.setItem('darkmode', value);
