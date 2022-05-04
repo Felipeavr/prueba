@@ -166,7 +166,7 @@ li:hover {
     height: 175px;
     background-color: green;
     margin: 20px auto;
-    background-image: url(/images/volcan.jpg);
+    background-image: url(../images/volcan.jpg);
     background-repeat:no-repeat;
     background-position: center center;
     background-size: cover;
@@ -175,10 +175,10 @@ li:hover {
 }
 
 .t2 {
-    background-image: url(/images/cielorojo.jpg);
+    background-image: url(../images/cielorojo.jpg);
 }
 .t3 {
-    background-image: url(/images/montana.jpg);
+    background-image: url(../images/montana.jpg);
 }
 
 #btndark {
